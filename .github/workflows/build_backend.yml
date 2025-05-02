@@ -9,11 +9,11 @@ name: "[CI] Backend / Build"
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ master ]
-    paths:
-      - "classquiz/**"
-#  pull_request:
+  # push:
+  #   branches: [ master ]
+  #   paths:
+  #     - "classquiz/**"
+  # pull_request:
 
 env:
   # Use docker.io for Docker Hub if empty

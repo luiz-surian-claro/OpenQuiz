@@ -9,11 +9,11 @@ name: "[CI] Frontend / Build"
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ master ]
-    paths:
-      - "frontend/**"
-#  pull_request:
+  # push:
+  #   branches: [ master ]
+  #   paths:
+  #     - "frontend/**"
+  # pull_request:
 
 env:
   # Use docker.io for Docker Hub if empty

@@ -5,10 +5,10 @@
 # .github/workflows/app.yaml
 name: PyTest
 on:
-  push:
-    paths:
-      - "classquiz/**"
   workflow_dispatch:
+  # push:
+  #   paths:
+  #     - "classquiz/**"
 
 jobs:
   test:
