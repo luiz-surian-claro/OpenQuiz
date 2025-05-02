@@ -6,7 +6,7 @@
 # pull the Node.js Docker image
 FROM node:19-bullseye as builder
 # ENV API_URL=http://api:80
-ENV API_URL=${OPENQUIZ_URL}
+ENV API_URL="https://${OPENQUIZ_URL}"
 ENV REDIS_URL=redis://localhost:6379
 ENV VITE_MAPBOX_ACCESS_TOKEN=${MAPBOX_ACCESS_TOKEN}
 # This Mapbox-token is restricted to the following urls: classquiz.de, classquiz.mawoka.eu, test.com
