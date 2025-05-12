@@ -59,4 +59,4 @@ jobs:
           # Whether Github issues should be created or not
           allow_issue_writing: true
           # The name of the artifact that contains the ZAP reports
-          artifact_name: dast_scan
+          artifact_name: "dast_scan_${{ github.event.repository.name }}"
